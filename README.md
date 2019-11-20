@@ -2,13 +2,12 @@
 for Basic of Machine-Learning
 
 
-1. Taylor Approximation
-2. Visualize average of image.
-3. Kmeans Clustering using MNIST dataset
-4. Kmeans Clustering on color image.
-5. Kmeans Clustering on the spatial domain.
-6. Kmeans Clustering both color image and spatial domain.
-8. Ploynominal fitting.
-9. binary classifier to classify digit 0 against all the other digits(least square).
-10. binary classifier for each digit against all the other digits(least square).
-11. binary classifier based on k random feature for each digit(least square).
+## 01. [Taylor Approximation]
+
+1. Define a differentiable function that maps from real number to real number.
+2. Define a domain of the function.
+3. Plot the function.
+4. Select a point within the domain.
+5. Mark the selected point on the function.
+6. Define the first-order Taylor approximation at the selected point.
+7. Plot the Taylor approximation with the same domain of the original function.
