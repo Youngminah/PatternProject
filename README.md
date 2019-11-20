@@ -2,13 +2,20 @@
 for Basic of Machine-Learning
 
 
-1. Taylor Approximation
-2. Visualize average of image.
-3. Kmeans Clustering using MNIST dataset
-4. Kmeans Clustering on color image.
-5. Kmeans Clustering on the spatial domain.
-6. Kmeans Clustering both color image and spatial domain.
-8. Ploynominal fitting.
-9. binary classifier to classify digit 0 against all the other digits(least square).
-10. binary classifier for each digit against all the other digits(least square).
-11. binary classifier based on k random feature for each digit(least square).
+
+## 07. Ploynominal fitting.
+
+[Polynomial fitting]
+
+Solve a least square problem to find an optimal polynomial curve for a given set of two dimensional points.
+
+Demonstrate the effect of the degree of polynomial in fitting a given set of points.
+
+- choose a polynomial curve and generate points along the curve with random noise
+
+- plot the generated noisy points along with its original polynomial without noise
+
+- plot the approximating polynomial curve obtained by solving a least square problem
+
+- plot the approximating polynomial curve with varying polynomial degree
+
