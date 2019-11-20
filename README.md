@@ -2,8 +2,7 @@
 for Basic of Machine-Learning
 
 
-## 01.
-[Taylor Approximation]
+## 01. [Taylor Approximation]
 
 1. Define a differentiable function that maps from real number to real number.
 2. Define a domain of the function.
@@ -14,18 +13,16 @@ for Basic of Machine-Learning
 7. Plot the Taylor approximation with the same domain of the original function.
 
 
-## 02. Visualize average of image.
+## 02. [Visualize average of image.]
 
-[Visualize average images]
 
 1. Load MNIST training dataset.
 2. Compute the average images for each label (digit) based on L2-norm.
 3. Visualize the average images.
 
 
-## 03. Kmeans Clustering using MNIST dataset
+## 03.[ Kmeans Clustering using MNIST dataset]
 
-[K-means clustering]
 
 1. Apply K-means clustering to MNIST training dataset with different K = 5, 10, 15, 20 and present the following results for each K.
 2. Visualize K centroid images for each category.
@@ -48,9 +45,8 @@ where $N$ denotes the total number of data, and $m_k$ denotes the number of data
 - (testing accuracy) is computed on the testing dataset.
 
 
-## 04. Kmeans Clustering on color image.
+## 04. [Kmeans Clustering on color image.]
 
-[K-means algorithm on color image]
 
 Let $f(x)$ be a color image and $x$ be the index of image in the domain.
 The values of image $f(x)$ consist of [red, green, blue] intensity.
@@ -80,9 +76,8 @@ g(x) = m_c where label(x) = c
 Each pixel of the output image $g(x)$ should be its centroid $m_c$ where $c$ is the cluster label of $g(x)$.
 
 
-## 05. Kmeans Clustering on the spatial domain.
+## 05. [Kmeans Clustering on the spatial domain.]
 
-[K-means clustering on the spatial domain]
 
 Apply K-means algorithm to the regular grid of a spatial domain in two dimension with varying number of clusters.
 
@@ -94,9 +89,7 @@ Visualize the result using color coding scheme that distinguishes different clus
 
 Observe the trajectory of centroid during the optimization and the shape of the clusters depending on the distance.
 
-## 06.
-
-[Apply K-means algorithm to both image value and its spatial domain]
+## 06. [Apply K-means algorithm to both image value and its spatial domain]
 
 For a given input image (either gray or color), apply a K-means algorithm that is designed to take into consideration of both the image intensity and its spatial domain with varying parameters: the number of clusters and the trade-off between the intensity energy and the spatial energy.
 
@@ -111,9 +104,7 @@ where I(k) denotes the index set of x that belongs to cluster k, m_k denotes the
 - Visualize the energy curve for both the intensity energy and the spatial energy.
 
 
-## 07. Ploynominal fitting.
-
-[Polynomial fitting]
+## 07. [Polynomial fitting]
 
 Solve a least square problem to find an optimal polynomial curve for a given set of two dimensional points.
 
@@ -127,9 +118,7 @@ Demonstrate the effect of the degree of polynomial in fitting a given set of poi
 
 - plot the approximating polynomial curve with varying polynomial degree
 
-## 08. binary classifier to classify digit 0 against all the other digits(least square).
-
-Build a binary classifier to classify digit 0 against all the other digits at MNIST dataset.
+## 08. [binary classifier to classify digit 0 against all the other digits(least square).]
 
 Let x = (x_1, x_2, ... , x_m) be a vector representing an image in the dataset.
 
@@ -148,8 +137,7 @@ The optimal model parameter w is obtained by minimizing the following objective 
 2. Compute (1) True Positive, (2) False Positive, (3) True Negative, (4) False Negative based on the computed optimal model parameter using (1) training dataset and (2) testing dataset.
 
 
-## 09. binary classifier for each digit against all the other digits(least square).
-Build a binary classifier for each digit against all the other digits at MNIST dataset.
+## 09. [binary classifier for each digit against all the other digits(least square).]
 
 Let x = (x_1, x_2, ... , x_m) be a vector representing an image in the dataset.
 
@@ -171,7 +159,7 @@ argmax_d f_d(x; w)
 1. Compute an optimal model parameter using the training dataset for each classifier f_d(x, w)
 2. Compute (1) true positive rate, (2) error rate using (1) training dataset and (2) testing dataset.
 
-## 10. binary classifier based on k random feature for each digit(least square).
+## 10. [binary classifier based on k random feature for each digit(least square).]
 
 Build a binary classifier based on k random features for each digit against all the other digits at MNIST dataset.
 
