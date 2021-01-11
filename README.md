@@ -1,9 +1,17 @@
 # PatternProject
-for Basic of Machine-Learning
+[![image](https://img.shields.io/badge/Language-Python3.7.0-yellow)](https://www.python.org/downloads/release/python-370/) 
+[![image](https://img.shields.io/badge/Library-Pytorch%201.3.1-orange) ](https://pytorch.org/)
+[![image](https://img.shields.io/badge/Tool-Jupyter%20Notebook-red)](https://jupyter.org/)
+[![image](https://img.shields.io/badge/References-Coursera-blue)](https://www.coursera.org/specializations/deep-learning?utm_source=gg&utm_medium=sem&utm_content=17-DeepLearning-ROW&campaignid=6465471773&adgroupid=77415260637&device=c&keyword=coursera%20deep%20learning%20ai&matchtype=b&network=g&devicemodel=&adpostion=1t1&creativeid=379493352691&hide_mobile_promo&gclid=CjwKCAiAx_DwBRAfEiwA3vwZYlou6zu4lfD5oJXeVwUq5yefPHoQ85MYlxFEagat5zbERSHfnswydxoCypcQAvD_BwE)
+
+Basic of Machine-Learning
 
 
-## 01.
-[Taylor Approximation]
+# 목차
+
+## 01. Taylor Approximation
+
+[보러가기](https://github.com/Youngminah/Pattern-Project-for-machine-Learning-/tree/Assignment-01)
 
 1. Define a differentiable function that maps from real number to real number.
 2. Define a domain of the function.
@@ -16,6 +24,8 @@ for Basic of Machine-Learning
 
 ## 02. Visualize average of image.
 
+[보러가기](https://github.com/Youngminah/Pattern-Project-for-machine-Learning-/tree/Assignment-02)
+
 [Visualize average images]
 
 1. Load MNIST training dataset.
@@ -24,6 +34,8 @@ for Basic of Machine-Learning
 
 
 ## 03. Kmeans Clustering using MNIST dataset
+
+[보러가기](https://github.com/Youngminah/Pattern-Project-for-machine-Learning-/tree/Assignment-03)
 
 [K-means clustering]
 
@@ -49,6 +61,8 @@ where $N$ denotes the total number of data, and $m_k$ denotes the number of data
 
 
 ## 04. Kmeans Clustering on color image.
+
+[보러가기](https://github.com/Youngminah/Pattern-Project-for-machine-Learning-/tree/Assignment-04)
 
 [K-means algorithm on color image]
 
@@ -82,6 +96,8 @@ Each pixel of the output image $g(x)$ should be its centroid $m_c$ where $c$ is 
 
 ## 05. Kmeans Clustering on the spatial domain.
 
+[보러가기](https://github.com/Youngminah/Pattern-Project-for-machine-Learning-/tree/Assignment-05)
+
 [K-means clustering on the spatial domain]
 
 Apply K-means algorithm to the regular grid of a spatial domain in two dimension with varying number of clusters.
@@ -94,7 +110,9 @@ Visualize the result using color coding scheme that distinguishes different clus
 
 Observe the trajectory of centroid during the optimization and the shape of the clusters depending on the distance.
 
-## 06.
+## 06. Apply K-means algorithm to both image value and its spatial domain
+
+[보러가기](https://github.com/Youngminah/Pattern-Project-for-machine-Learning-/tree/Assignment-06)
 
 [Apply K-means algorithm to both image value and its spatial domain]
 
@@ -113,6 +131,8 @@ where I(k) denotes the index set of x that belongs to cluster k, m_k denotes the
 
 ## 07. Ploynominal fitting.
 
+[보러가기](https://github.com/Youngminah/Pattern-Project-for-machine-Learning-/tree/Assignment-07)
+
 [Polynomial fitting]
 
 Solve a least square problem to find an optimal polynomial curve for a given set of two dimensional points.
@@ -128,6 +148,8 @@ Demonstrate the effect of the degree of polynomial in fitting a given set of poi
 - plot the approximating polynomial curve with varying polynomial degree
 
 ## 08. binary classifier to classify digit 0 against all the other digits(least square).
+
+[보러가기](https://github.com/Youngminah/Pattern-Project-for-machine-Learning-/tree/Assignment-08)
 
 Build a binary classifier to classify digit 0 against all the other digits at MNIST dataset.
 
@@ -149,6 +171,9 @@ The optimal model parameter w is obtained by minimizing the following objective 
 
 
 ## 09. binary classifier for each digit against all the other digits(least square).
+
+[보러가기](https://github.com/Youngminah/Pattern-Project-for-machine-Learning-/tree/Assignment-09)
+
 Build a binary classifier for each digit against all the other digits at MNIST dataset.
 
 Let x = (x_1, x_2, ... , x_m) be a vector representing an image in the dataset.
@@ -172,6 +197,8 @@ argmax_d f_d(x; w)
 2. Compute (1) true positive rate, (2) error rate using (1) training dataset and (2) testing dataset.
 
 ## 10. binary classifier based on k random feature for each digit(least square).
+
+[보러가기](https://github.com/Youngminah/Pattern-Project-for-machine-Learning-/tree/Assignment-10)
 
 Build a binary classifier based on k random features for each digit against all the other digits at MNIST dataset.
 
